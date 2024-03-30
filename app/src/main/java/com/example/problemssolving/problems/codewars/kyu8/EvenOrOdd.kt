@@ -1,4 +1,4 @@
-package com.example.problemssolving.problems.kyu8
+package com.example.problemssolving.problems.codewars.kyu8
 
 /*
 Create a function that takes an integer as an argument
