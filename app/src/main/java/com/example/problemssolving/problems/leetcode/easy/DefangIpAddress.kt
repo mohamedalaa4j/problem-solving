@@ -1,4 +1,4 @@
-package com.example.problemssolving.problems.leetcode
+package com.example.problemssolving.problems.leetcode.easy
 
 /*
 Given a valid (IPv4) IP address, return a defanged version of that IP address.
