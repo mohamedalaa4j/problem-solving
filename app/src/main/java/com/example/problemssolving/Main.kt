@@ -1,13 +1,13 @@
 package com.example.problemssolving
 
 import com.example.problemssolving.problems.udemy.arrays.IsOneArrayARotationOfAnother
+import com.example.problemssolving.problems.udemy.arrays.MostFrequentlyOccurringItem
 
 
 fun main() {
-    val arrayA = intArrayOf(1, 2, 3, 4, 5, 6, 7)
-    val arrayB = intArrayOf(7, 1, 2, 3, 4, 5, 6)
+    val arrayA = intArrayOf(0, -1, 10, 10, -1, 10, -1, -1, -1, 1)
 
     println(
-        IsOneArrayARotationOfAnother().isRotation(arrayA, arrayB)
+        MostFrequentlyOccurringItem().mostFrequent(arrayA.toList())
     )
 }
