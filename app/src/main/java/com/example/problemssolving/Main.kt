@@ -1,15 +1,12 @@
 package com.example.problemssolving
 
-import com.example.problemssolving.problems.udemy.arrays.CommonElementsInTwoSortedArrays
-import com.example.problemssolving.problems.udemy.arrays.IsOneArrayARotationOfAnother
-import com.example.problemssolving.problems.udemy.arrays.MostFrequentlyOccurringItem
+import com.example.problemssolving.problems.udemy.strings.NonRepeatingCharacter
 
 
 fun main() {
-    val arrayA = intArrayOf(0, 1, 2, 3, 4, 5)
-    val arrayB = intArrayOf(6, 7, 8, 9, 10, 11)
+    val input = "aabbdbc"
 
     println(
-        CommonElementsInTwoSortedArrays().commonElements(arrayA,arrayB)
+        NonRepeatingCharacter().nonRepeating(input)
     )
 }
